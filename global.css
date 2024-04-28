@@ -1,0 +1,92 @@
+*{
+  font-family: 'Yrsa';
+}
+.anim-delay{
+  animation-delay:1000ms
+}
+.hover:hover {
+  transition-duration: 1s;
+  transform:  scale(1.04);
+}
+.icons-aling{
+    position: relative;
+    top: 5px;
+}
+.app-name {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+  0 0 40px rgb(58, 59, 58), 0 0 80px rgb(0, 183, 255), 0 0 90px #0f0,
+  0 0 100px #0f0, 0 0 150px #0f0;
+}
+.text-pink{
+  color: pink;
+}
+.navi-card {
+  background-image: linear-gradient(to right,#29323c,#29323c,#29323c,#3c335a);
+  border-radius: 12px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.box {
+  border-radius: 4px;
+  box-shadow: 4px 5px 10px #393636, 0px 5px 40px #333333,
+  -10px 5px 40px #333333;
+}
+.rotate {
+  animation-duration: 5s;
+  animation-name: roted;
+  animation-iteration-count: infinite;
+}
+
+
+.pointer {
+    cursor: pointer;
+  }
+
+.notify {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.text-shadow{
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #969696, 1px 2px 2px #aba8a8;
+}
+
+.shine-hr {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  border: 0px;
+  height: 4px;
+  background: -webkit-gradient(
+          linear,
+          0% 0%,
+          100% 0%,
+          from(rgba(157, 157, 157, 0)),
+          color-stop(0.5, rgba(0, 0, 0, 0.17)),
+          to(#00000000)
+  );
+}
+
+@keyframes roted {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+  .hide_pc {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hide_moblie {
+    display: none;
+  }
+}
+  
