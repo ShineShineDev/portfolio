@@ -1,0 +1,15 @@
+[
+    {
+        "name" : "Ok Store",
+        "url" : "https://okjapanstore.com/",
+        "type" : "E-commerce",
+        "img_url" : "https://infinitecraftglobaltrading.com/logo.png",
+        "logo_url" : "https://infinitecraftglobaltrading.com/logo.png",
+        "used" : [
+            "Laravel,MYSQL"
+        ],
+        "position" : [
+            "Full Stack"
+        ]
+    }
+]
