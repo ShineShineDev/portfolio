@@ -1,15 +1,247 @@
 [
     {
-        "name" : "Ok Store",
-        "url" : "https://okjapanstore.com/",
-        "type" : "E-commerce",
-        "img_url" : "https://infinitecraftglobaltrading.com/logo.png",
-        "logo_url" : "https://infinitecraftglobaltrading.com/logo.png",
-        "used" : [
-            "Laravel,MYSQL"
+        "name": "MY AYA SOMPO – Insurance Platform",
+        "duration": "",
+        "associated": "Microland IT Solutions",
+        "title": "As a Backend & API Developer, I was responsible for designing, developing the MY AYA SOMPO – Insurance Platform. My key responsibilities included:",
+        "lists": "• Policy Management : Developed and maintained APIs to handle insurance policy renewal,and tracking. <br/><br/> • Claims Handling : Implemented secure and efficient claims submission and processing workflows.  <br/><br/> • Backend Portal : Developed and maintained the admin portal, enabling administrators to manage users, agents and insurance products. <br/><br/> • Real-Time Notifications : Integrated Firebase Cloud Messaging (FCM) for customer alerts (e.g., claim status, renewal reminders).  <br/><br/> • SMS notifications : Integrated SMS notifications for user registration, policy status, renewals, and claim updates. <br/><br/> • Performance Optimization : Used Redis for caching frequently accessed data, improving response times and scalability. <br/><br/> • Collaboration : Worked closely with the Mobile teams to ensure seamless API consumption and system integration.  <br/><br/> • Deployment : The application was designed with a clear deployment strategy, supporting separate environments for development, staging (UAT), and production. Deployed on an Ubuntu server using Nginx as the web server, with proper environment isolation, SSL configuration, and production-ready optimization.",
+        "urls": [
+            {
+                "desc": "Play Store Link",
+                "url": "https://play.google.com/store/apps/details?id=com.ml.ayasompo&hl=en"
+            },
+            {
+                "desc": "App Store Link",
+                "url": "https://apps.apple.com/kg/app/my-ayasompo/id6475663317"
+            }
         ],
-        "position" : [
-            "Full Stack"
+        "type": "Insurance Platform",
+        "images": [
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/01/01.webp"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/01/02.webp"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/01/03.webp"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/01/04.webp"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/01/05.webp"
+            }
+        ],
+        "logo_url": "http://209.74.87.89/imgs/01/00.jpeg",
+        "used": [
+            "PHP(Laravel)",
+            "MySQL",
+            "Redis",
+            "Firebase",
+            "Vuejs ",
+            "Nginx",
+            "Bootstrap"
+        ],
+        "position": [
+            "Backend & API Developer"
+        ]
+    },
+    {
+        "name": "OkJapanStore (E-commerce Platform)",
+        "duration": "",
+        "associated": "Self-employed",
+        "title": "As a Full Stack Developer, I was responsible for designing, developing, and maintaining the OkJapanStore e-commerce platform. My key responsibilities included:",
+        "lists": "• Admin Backend Portal: Developing and managing the Admin Backend Portal using Angular for seamless management of products, orders, payments, users, and configurations, with role-based access control <br/><br/>• Customer-Facing Web Application: Developed a responsive, fast, and user-centric frontend in Angular, providing a smooth and intuitive shopping experience.<br/><br/>• Collaboration with Mobile Team: Worked closely with the mobile developers to align on API structure, data handling, error messaging, and integration timelines, enabling a unified cross-platform experience.<br/><br/>• RESTful APIs: Designed and implemented scalable RESTful APIs to power the Flutter mobile application, ensuring consistent business logic and performance across web and mobile platforms.<br/><br/>• Real-time Notifications: Integrated Firebase Cloud Messaging (FCM) to deliver timely notifications to users for order updates and promotions.<br/><br/>• Database & Caching: Optimized MySQL for relational integrity and query efficiency, and integrated Redis for fast caching and session storage.<br/><br/>• Admin Alerts & Server Monitoring: Used Telegram Bot API to send automated notifications to admins for new orders, payment issues, and system anomalies. Additionally, implemented server health and performance monitoring (server metrics) to proactively manage uptime, resource usage, and alerts.<br/><br/>• Deployment & Infrastructure: Planned, designed, and implemented the complete infrastructure on Namecheap Cloud, deploying the application stack to Linux-based environments. Oversaw the setup and management of development and production environments, including SSL configuration, cron job automation, database backup.",
+        "urls": [
+            {
+                "desc": "Website Link",
+                "url": "https://okjapanstore.com/"
+            },
+            {
+                "desc": "App Store Link",
+                "url": "https://apps.apple.com/mm/app/ok-japan/id6720744000"
+            }
+        ],
+        "type": "E-commerce",
+        "images": [
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/01.png"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/02.png"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/03.png"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/04.png"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/05.png"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/02/06.png"
+            }
+        ],
+        "logo_url": "http://209.74.87.89/imgs/02/00.webp",
+        "used": [
+            "PHP & Laravel",
+            "Node.js",
+            "MySQL",
+            "Redis",
+            "Firebase",
+            "Angular ",
+            "Bootstrap",
+            "Telegram Bot",
+            "Namecheap Cloud",
+            "Iass",
+            "Linux",
+            "Nginx"
+        ],
+        "position": [
+            "Full Stack Developer"
+        ]
+    },
+    {
+        "name": "Inventory Management System",
+        "duration": "",
+        "associated": "Microland IT Solutions",
+        "title": null,
+        "lists": "•Inventory Control: Developed a custom inventory system to manage products, stock levels, warehouse transfers, and supplier information efficiently.<br><br>• Backend Portal: Built a user-friendly admin panel using Laravel for managing stock entries, purchase orders, sales, and reporting.<br><br>• Reporting & Analytics: Implemented dynamic reports for stock movement, purchase/sale history, and warehouse summaries with date filtering.",
+        "urls": [],
+        "type": "POS",
+        "images": [
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/03/01.jpeg"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/03/02.jpeg"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/03/03.jpeg"
+            },
+             {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/03/04.jpeg"
+            }
+        ],
+        "logo_url": null,
+        "used": [
+            "PHP & Laravel",
+            "MySQL",
+            "Bootstrap",
+            "Vue.js"
+        ],
+        "position": [
+            "Full Stack Developer"
+        ]
+    },
+    {
+        "name": "Innoscript.co",
+        "duration": "",
+        "associated": "Self-employed",
+        "title": null,
+        "lists": "• Frontend Development: Built a modern and responsive company website using React, showcasing company services, projects, team, and contact details with a clean and professional design.<br><br> • Backend Portal: Developed a secure and scalable admin portal using PHP (Laravel) to manage website content including service sections, project portfolios, team profiles, and contact messages.<br><br> • Performance & SEO Optimization: Implemented best practices for fast loading, mobile responsiveness, and SEO-friendly page structure.<br><br> • Deployment & Maintenance: Successfully deployed both frontend and backend on a Cpanel-managed Linux server, including database setup, environment configuration, and ongoing site maintenance.",
+        "urls": [
+             {
+                "desc": "Website Link",
+                "url": "http://innoscript.co/"
+            }
+        ],
+        "type": "Website",
+        "images": [
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/04/01.jpeg"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/04/02.jpeg"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/04/03.jpeg"
+            }
+        ],
+        "logo_url": "http://209.74.87.89/imgs/04/00.png",
+        "used": [
+            "PHP & Laravel",
+            "MySQL",
+            "React",
+            "Cpanel"
+        ],
+        "position": [
+            "Full Stack Developer"
+        ]
+    },
+    {
+        "name": "Infinite Craft Global Trading",
+        "duration": "",
+        "associated": "Self-employed",
+        "title": null,
+        "lists": "- Backend Portal: Developed a dynamic and user-friendly admin portal using PHP (Laravel) to manage company content such as services, products, team profiles, banner galleries, and customer inquiries. <br/><br/>• Company Website: Built a modern, responsive, and SEO-friendly public-facing website to showcase the company’s trading services, global reach, and corporate identity.<br/><br/>• Content Management: Enabled non-technical users to easily update and publish content through a secure, custom-built content management system (CMS).<br/><br/>• Localization Ready: Structured the site for multi-language support to serve both local and international audiences.<br/><br/>• Deployment & Maintenance: Deployed the project on a Linux server with environment separation for development and production, and set up monitoring for system reliability.",
+        "urls": [
+             {
+                "desc": "Website Link",
+                "url": "https://infinitecraftglobaltrading.com/"
+            }
+        ],
+        "type": "Website",
+        "images": [
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/05/01.jpeg"
+            },
+            {
+                "depend": "http://209.74.87.89/",
+                "desc": "",
+                "url": "imgs/05/logo.png"
+            }
+        ],
+        "logo_url": "http://209.74.87.89/imgs/05/logo.png",
+        "used": [
+            "PHP & Laravel",
+            "MySQL",
+            "Bootstrap",
+            "Linux",
+            "Nginx"
+        ],
+        "position": [
+            "Full Stack Developer"
         ]
     }
 ]
